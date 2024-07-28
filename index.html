@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>System Monitor</h1>
+        <div class="data-container">
+            <div class="data-box" id="memoryUsage">Memory Usage: </div>
+            <div class="data-box" id="cpuUsage">CPU Usage: </div>
+            <div class="data-box" id="uptime">Uptime: </div>
+            <div class="data-box" id="freeMemory">Free Memory: </div>
+            <div class="data-box" id="totalMemory">Total Memory: </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
